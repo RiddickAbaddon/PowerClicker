@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ccw" unicode="&#xe800;" d="M532 736q170 0 289-120t119-290-119-290-289-120q-142 0-252 88l70 74q84-60 182-60 126 0 216 90t90 218-90 218-216 90q-124 0-214-87t-92-211l142 0-184-204-184 204 124 0q2 166 122 283t286 117z" horiz-adv-x="940" />
+
+<glyph glyph-name="volume-off" unicode="&#xe801;" d="M460 727l0-754-234 234-226 0 0 286 226 0z" horiz-adv-x="460" />
+
+<glyph glyph-name="volume-up" unicode="&#xe802;" d="M460 727l0-754-234 234-226 0 0 286 226 0z m133-602l-65 63c45 45 68 108 68 168 0 59-21 115-63 159l61 61c61-63 97-144 97-228 0-76-30-156-98-223z m145-131l-70 69c77 77 116 182 116 288 0 105-39 211-116 289l66 66c97-98 151-229 151-361 0-124-46-249-147-351z" horiz-adv-x="885" />
+
+<glyph glyph-name="facebook-squared" unicode="&#xf30e;" d="M752 770q44 0 76-31t32-75l0-646q0-44-32-76t-76-32l-162 0 0 310 114 0 0 134-114 0 0 70q0 30 28 30l86 0 0 152-96 0q-74 0-124-54t-50-132l0-66-104 0 0-134 104 0 0-310-326 0q-44 0-76 32t-32 76l0 646q0 44 32 75t76 31l644 0z" horiz-adv-x="860" />
+</font>
+</defs>
+</svg>

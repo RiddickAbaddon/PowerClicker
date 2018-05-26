@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<title>Power Clicker</title>
+	<meta name="author" content="Marcin Kalinowski">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge, chrome=1">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="gamescript.js"></script>
+	<link rel="stylesheet" href="fontello/css/fontello.css" type="text/css"/>
+	<link rel="shortcut icon" href="img/icon.png"/>
+</head>
+<body onload="start();">
+	<div id="logo"></div>
+	<div id="container">
+		<div id="mobileclick" onClick="openmobile()">Mobile Click</div>
+		<div id="screenbutton" onClick="dynamo()"></div>
+		<div id="stat">
+			<div id="lvl">1</div>
+			<div id="progressBg"></div>
+			<div id="progressbar"></div>
+			<div id="energy">10</div>
+			<div id="btnlvup"></div>
+			<div id="progressBg2"><div class="calendar"></div></div>
+			<div id="yearinfo">Produkcja roczna: 0</div>
+			<div id="topbuttons">
+				<a target="_blank" href="https://www.facebook.com/riddickabaddon/"><button class="topbutton" title="Mój Facebook"><i class="icon-facebook-squared"></i></button></a>
+				<button class="topbutton" id="sound" onClick="soundonoff()" title="Wł/Wył dźwięk"><i class="icon-volume-up"></i></button>
+				<button id="hint" class="topbutton" onClick="showhelp()" title="Instrukcja">?</button>
+				<button class="topbutton" onClick="showinfo()" title="Informacje o premiach">i</button>
+				<button class="topbutton" onClick="showscore()" title="Zresetuj grę i pokaż wynik"><i class="icon-ccw"></i></button>
+			</div>
+		</div>
+		<div id="skills">
+			<div class="skill" id="skill0"></div>
+			<div class="skill" id="skill1"></div>
+			<div class="skill" id="skill2"></div>
+			<div class="skill" id="skill3"></div>
+			<div class="skill" id="skill4"></div>
+			<div class="skill" id="skill5"></div>
+			<div class="skill" id="skill6"></div>
+			<div class="skill" id="skill7"></div>
+			<div class="skill" id="skill8"></div>
+		</div>
+		<div id="dynamobtn"><div id="Dynamo" onClick="dynamo()"></div></div>
+		<div id="landscape"></div>
+		<div class="buildcontainer" id="JSwater"></div>
+		<div class="buildcontainer" id="JSsunpanels"></div>
+		<div class="buildcontainer" id="JSwindmills"></div>
+		<div class="buildcontainer" id="JScarbonreactors"></div>
+		<div class="buildcontainer" id="JSnuclearreactors"></div>
+		<div class="buildcontainer" id="JSorbitalpanels"></div>
+		<div class="buildcontainer" id="JSsunnode"></div>
+		<div class="buildcontainer" id="JSantimatterreactors"></div>
+		<div id="helpcontainer" class="buildcontainer"></div>
+		<div id="informationcontainer" class="buildcontainer"></div>
+		
+		<div id="boosts">
+		</div>
+		<div style="clear: both;"></div>
+		<div id="footer">Power Clicker v1.02 Wszelkie prawa zastrzeżone &copy; Marcin 'Riddick' Kalinowski 2017</div>
+		<div id="buildcontainer"><input id="range" type="range" min="0.0" max="0.2" step="0.001" value="0.05" oninput="(changemusic(this.value))"></div>
+	</div>
+	<div id="newgamecontainer" class="buildcontainer">
+	</div>
+</body>
+</html>
